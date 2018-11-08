@@ -1,3 +1,5 @@
+Clone of Insight Data Engineering Coding Challenge
+
 # Table of Contents
 
 1. [Challenge Summary] (README.md#challenge-summary)
