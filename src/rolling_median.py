@@ -96,6 +96,9 @@ def main( argv ):
         except TypeError:
             #Invalid Data Format - Ignore and skip record
             continue
+        except ValueError:
+            #Invalid Data Format - Ignore and skip record
+            continue
         
         newEdge = True
         if( len(history) > 0 and t_data[2] < history[len(history)-1][2] ):
